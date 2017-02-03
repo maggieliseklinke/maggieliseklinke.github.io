@@ -7,10 +7,27 @@ body {
     font-family: "Sansita", cursive;
     max-width: auto;
     text-align: center;
+    background-image: url(sunny.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 option {
     font-family: "Sansita", cursive;
     align-content: center;
     width: 150%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Sansita", cursive;
+}
+
+#name {
+    font-size: 3.5em;
+    margin-top: 3px;
+    margin-bottom: -5px;
 }
