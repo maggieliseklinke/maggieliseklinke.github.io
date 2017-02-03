@@ -50,9 +50,15 @@ option {
     width: 150%;
 }
 
+#pic {
+    margin-top: 10px;
+    height: 200px;
+    width: 100px;
+}
+
 #current {
     margin: auto;
-    max-width: 500px;
+    max-width: 300px;
     color: black;
     background-color: #efefef;
 }
@@ -65,4 +71,5 @@ footer {
     padding: 1rem;
     background-color: #efefef;
     text-align: center;
+    opacity: .5;
 }
