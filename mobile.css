@@ -51,7 +51,7 @@ option {
 }
 
 #pic {
-    margin-top: 10px;
+    margin-top: 5px;
     height: 200px;
     width: 100px;
 }
@@ -60,6 +60,7 @@ option {
     margin: auto;
     max-width: 300px;
     color: black;
+    margin-top: -35px;
     background-color: #efefef;
 }
 
