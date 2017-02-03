@@ -13,41 +13,35 @@ html {
 }
 
 body {
-    font-family: "Sansita", cursive;
+    font-family: "Sansita", sans-serif;
     max-width: auto;
     text-align: center;
 }
 
 #name {
     background-color: #efefef;
+    color: black;
     font-size: 6em;
     max-width: 500px;
     align-content: center;
     margin: auto;
 }
 
+#currentw {
+    font-size: 5em;
+    margin-bottom: -1px;
+    margin-top: -35px;
+}
+
 #weathertype {
     font-size: 3em;
 }
 
-#lo,
-#lowtemp {
-    float: right;
-    font-size: 2em;
-    margin-right: 150px;
-    align-content: center;
-    margin-top: -30px;
-    background-color: #efefef;
-}
-
 #hi,
-#hitemp {
-    float: left;
-    font-size: 2em;
-    align-content: center;
-    margin-left: 150px;
-    margin-top: -30px;
-    background-color: #efefef;
+#lo {
+    display: inline-block;
+    width: 20%;
+    margin-top: -10px;
 }
 
 option {
@@ -57,18 +51,10 @@ option {
 }
 
 #current {
-    background-color: #efefef;
     margin: auto;
     max-width: 500px;
-    height: 300px;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5 {
-    font-family: "Sansita", cursive;
+    color: black;
+    background-color: #efefef;
 }
 
 footer {
