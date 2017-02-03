@@ -9,6 +9,7 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    height: 100%;
 }
 
 body {
@@ -17,10 +18,49 @@ body {
     text-align: center;
 }
 
+#name {
+    background-color: #efefef;
+    font-size: 6em;
+    max-width: 500px;
+    align-content: center;
+    margin: auto;
+}
+
+#weathertype {
+    font-size: 3em;
+}
+
+#lo,
+#lowtemp {
+    float: right;
+    font-size: 2em;
+    margin-right: 150px;
+    align-content: center;
+    margin-top: -30px;
+    background-color: #efefef;
+}
+
+#hi,
+#hitemp {
+    float: left;
+    font-size: 2em;
+    align-content: center;
+    margin-left: 150px;
+    margin-top: -30px;
+    background-color: #efefef;
+}
+
 option {
     font-family: "Sansita", cursive;
     align-content: center;
     width: 150%;
+}
+
+#current {
+    background-color: #efefef;
+    margin: auto;
+    max-width: 500px;
+    height: 300px;
 }
 
 h1,
@@ -31,8 +71,12 @@ h5 {
     font-family: "Sansita", cursive;
 }
 
-#name {
-    font-size: 3.5em;
-    margin-top: 3px;
-    margin-bottom: -5px;
+footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
 }
