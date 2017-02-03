@@ -5,5 +5,12 @@
 
 body {
     font-family: "Sansita", cursive;
-    max-width: 400px;
+    max-width: auto;
+    text-align: center;
+}
+
+option {
+    font-family: "Sansita", cursive;
+    align-content: center;
+    width: 150%;
 }
