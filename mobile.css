@@ -19,6 +19,20 @@
     margin-bottom: -10px;
 }
 
+#flexbox .big {
+    flex: 400px 1;
+    background-color: #efefef;
+    border-style: solid;
+    border-width: 2px;
+    color: black;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    text-align: center;
+    line-height: 0px;
+}
+
 #flexbox .box {
     flex: 100px 2;
     background-color: #efefef;
@@ -47,7 +61,7 @@
     margin: auto;
     max-width: 350px;
     color: black;
-    margin-bottom: 10px;
+    margin-bottom: -5px;
 }
 
 #weatherflexbox .fbox {
@@ -64,6 +78,13 @@
     text-align: center;
     vertical-align: middle;
     line-height: 25px;
+}
+
+#picture {
+    height: 112px;
+    width: 112px;
+    margin-top: -30px;
+    margin-bottom: 25px;
 }
 
 main {
@@ -214,6 +235,26 @@ footer {
         flex: 150px 1;
         max-width: 250px;
     }
+    #hourly {
+        margin: auto;
+        max-width: 550px;
+        color: black;
+        margin-top: 25px;
+        background-color: #efefef;
+    }
+    #flexbox .big {
+        flex: 400px 1;
+        background-color: #efefef;
+        border-style: solid;
+        border-width: 2px;
+        color: black;
+        width: 50px;
+        height: 50px;
+        margin-bottom: 5px;
+        margin-right: 5px;
+        text-align: center;
+        line-height: 0px;
+    }
     main {
         margin-bottom: 75px;
         width: 100%
@@ -231,6 +272,7 @@ footer {
         max-width: 350px;
         color: black;
         margin-top: -20px;
+        margin-bottom: 15px;
         background-color: #efefef;
     }
     #hi,
