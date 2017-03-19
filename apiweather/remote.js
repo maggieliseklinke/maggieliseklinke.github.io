@@ -24,45 +24,38 @@ $(function () {
     function getData(lat, long) {
         $.ajax({
 
-                url: "//api.wunderground.com/api/9de2f202a0cdd493/conditions/q/" + lat + "," + long + ".json",
-                dataType: "jsonp",
-                success: function (data) {
-                    console.log(data);
+            url: "//api.wunderground.com/api/9de2f202a0cdd493/conditions/q/" + lat + "," + long + ".json",
+            dataType: "jsonp",
+            success: function (data) {
+                console.log(data);
 
-                    $("#currentTemp").text(data.current_observation.temp_f + String.fromCharCode(176) + "F");
-                    //                cityDisplay
-                    $("#cityDisplay").text(data.current_observation.display_location.full);
-                    //                summary
-                    $('#weathertype').text(data.current_observation.weather);
-
-
-                    //                add1-3
-
-                    $("#speed").text(data.current_observation.wind_mph + " mph");
-                    $("#visibility").text(data.current_observation.visibility_mi + "mi");
-                    $('#precip').text(data.current_observation.precip_today_in + String.fromCharCode(176) + "F")
+                $("#currentTemp").text(data.current_observation.temp_f + String.fromCharCode(176) + "F");
+                //                cityDisplay
+                $("#cityDisplay").text(data.current_observation.display_location.full);
+                //                summary
+                $('#summary').text(data.current_observation.weather);
 
 
-                    $("#cover").fadeOut(250);
-                    $("#cove").fadeOut(250);
-                    $("#cov").fadeOut(250);
+                //                add1-3
 
 
 
-                }
+                $("#speed").text(data.current_observation.wind_mph + " mph");
+                $("#visibility").text(data.current_observation.visibility_mi + "mi");
+                $('#precip').text(data.current_observation.precip_today_in + "in")
 
-
+                $("#cover").fadeOut(250);
+                $("#cove").fadeOut(250);
+                $("#cov").fadeOut(250);
             }
-
-
         });
 
-}
+    }
 
-// A function for changing a string to TitleCase
-function toTitleCase(str) {
-    return str.replace(/\w+/g, function (txt) {
-        return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
-    });
-}
+    // A function for changing a string to TitleCase
+    function toTitleCase(str) {
+        return str.replace(/\w+/g, function (txt) {
+            return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+        });
+    }
 });
