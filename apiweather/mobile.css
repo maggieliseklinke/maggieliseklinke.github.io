@@ -1,0 +1,284 @@
+@import url("https://fonts.googleapis.com/css?family=Sansita");
+#wrapper {
+    height: 100%;
+}
+
+#flexbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 300px;
+    height: auto;
+    min-height: 200px;
+    color: white;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    max-width: 500px;
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+
+#flexbox .big {
+    flex: 400px 1;
+    background-color: #efefef;
+    border-style: solid;
+    border-width: 2px;
+    color: black;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    text-align: center;
+    line-height: 0px;
+}
+
+#flexbox .box {
+    flex: 100px 2;
+    background-color: #efefef;
+    border-style: solid;
+    border-width: 2px;
+    color: black;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 25px;
+}
+
+#weatherflexbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+    min-height: 50px;
+    color: white;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    max-width: 350px;
+    color: black;
+    margin-bottom: -5px;
+}
+
+#weatherflexbox .fbox {
+    flex: 100px 2;
+    background-color: #efefef;
+    border-style: solid;
+    border-width: 2px;
+    color: black;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 25px;
+}
+
+#picture {
+    height: 112px;
+    width: 112px;
+    margin-top: -30px;
+    margin-bottom: 25px;
+}
+
+main {
+    margin-bottom: 500px;
+}
+
+html {
+    background: url(sunny.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+}
+
+body {
+    font-family: "Sansita", sans-serif;
+    text-align: center;
+}
+
+#name {
+    background-color: #efefef;
+    color: black;
+    font-size: 3em;
+    max-width: 500px;
+    align-content: center;
+    margin: auto;
+}
+
+#currentw {
+    font-size: 3em;
+    margin-bottom: -1px;
+    margin-top: -35px;
+}
+
+#weathertype {
+    font-size: 3em;
+}
+
+#hi,
+#lo {
+    display: inline-block;
+    width: 20%;
+    margin-top: -5px;
+}
+
+.hour,
+.hours,
+.hourss {
+    display: inline-block;
+    width: 15%;
+    margin: auto;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-width: 3px;
+}
+
+.hours {
+    margin-bottom: 5px;
+}
+
+.hourss {
+    margin-top: 5px;
+}
+
+option {
+    font-family: "Sansita", cursive;
+    align-content: center;
+    width: 150%;
+}
+
+#pic {
+    margin-top: 5px;
+    height: 200px;
+    width: 100px;
+}
+
+#wind {
+    margin: auto;
+    max-width: 250px;
+    color: black;
+    margin-top: -10px;
+    line-height: 25px;
+    background-color: #efefef;
+}
+
+#current {
+    margin: auto;
+    max-width: 350px;
+    color: black;
+    margin-top: -35px;
+    background-color: #efefef;
+}
+
+#hourly {
+    margin: auto;
+    max-width: 500px;
+    color: black;
+    margin-top: -10px;
+    background-color: #efefef;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #efefef;
+}
+
+#foot {
+    margin-top: 20px;
+    text-align: center;
+}
+
+@media (min-width: 751px) {
+    #hourly {
+        margin: auto;
+        max-width: 550px;
+        color: black;
+        margin-top: 25px;
+        background-color: #efefef;
+    }
+    #wind {
+        margin: auto;
+        max-width: 250px;
+        color: black;
+        margin-top: 20px;
+        line-height: 25px;
+        background-color: #efefef;
+    }
+    #current {
+        margin: auto;
+        max-width: 350px;
+        color: black;
+        margin-top: -35px;
+        background-color: #efefef;
+    }
+    main {
+        margin-bottom: 75px;
+    }
+}
+
+@media (max-width: 750px) {
+    #weatherflexbox .fbox {
+        max-width: 250px;
+    }
+    #flexbox .box {
+        flex: 150px 1;
+        max-width: 250px;
+    }
+    #hourly {
+        margin: auto;
+        max-width: 550px;
+        color: black;
+        margin-top: 25px;
+        background-color: #efefef;
+    }
+    #flexbox .big {
+        flex: 400px 1;
+        background-color: #efefef;
+        border-style: solid;
+        border-width: 2px;
+        color: black;
+        width: 50px;
+        height: 50px;
+        margin-bottom: 5px;
+        margin-right: 5px;
+        text-align: center;
+        line-height: 0px;
+    }
+    main {
+        margin-bottom: 75px;
+        width: 100%
+    }
+    #wind {
+        margin: auto;
+        max-width: 150px;
+        color: black;
+        margin-top: 30px;
+        line-height: 25px;
+        background-color: #efefef;
+    }
+    #current {
+        margin: auto;
+        max-width: 350px;
+        color: black;
+        margin-top: -20px;
+        margin-bottom: 15px;
+        background-color: #efefef;
+    }
+    #hi,
+    #lo {
+        display: inline-block;
+        width: 25%;
+        margin-top: -5px;
+    }
+}
