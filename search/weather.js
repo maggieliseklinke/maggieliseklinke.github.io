@@ -9,7 +9,7 @@ $("#searchResults").on("click", "a", function (evt) {
     document.getElementById("searchResults").style.display = "none";
     console.log(jsonCity);
     $.ajax({
-        url: "//api.wunderground.com/api/96f231c8d2cbcc08/conditions/q/" + jsonCity + ".json",
+        url: "//api.wunderground.com/api/9de2f202a0cdd493/conditions/q/" + jsonCity + ".json",
         dataType: "json",
         success: function (data) {
             console.log(data);
@@ -32,7 +32,7 @@ $("#searchResults").on("click", "a", function (evt) {
         }
     });
     $.ajax({
-        url: "//api.wunderground.com/api/96f231c8d2cbcc08/forecast/q/" + jsonCity + ".json",
+        url: "//api.wunderground.com/api/9de2f202a0cdd493/forecast/q/" + jsonCity + ".json",
         dataType: "json",
         success: function (data) {
             console.log(data);
