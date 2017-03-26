@@ -37,7 +37,7 @@ $("#searchResults").on("click", "a", function (evt) {
         success: function (data) {
             console.log(data);
             $("#hi").text("HI: " + data.forecast.simpleforecast.forecastday[0].high.fahrenheit + String.fromCharCode(176) + "F");
-            $("#lo").text("LOW: " + data.forecast.simpleforecast.forecastday[0].low.fahrenheit + String.fromCharCode(176) + "F");
+            $("#lo").text("LO: " + data.forecast.simpleforecast.forecastday[0].low.fahrenheit + String.fromCharCode(176) + "F");
         }
 
     });
