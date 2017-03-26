@@ -35,7 +35,8 @@ $(function () {
                 //                summary
                 $('#summary').text(data.current_observation.weather);
 
-
+                $("#hi").text(data.forecast.simpleforecast.forecastday[0].high.fahrenheit + String.fromCharCode(176) + "f");
+                $("#lo").text(data.forecast.simpleforecast.forecastday[0].low.fahrenheit + String.fromCharCode(176) + "f");
                 //                add1-3
 
                 $("#add1").text("The wind is blowing at " + data.current_observation.wind_mph + " mph");
