@@ -3,6 +3,34 @@
     height: 100%;
 }
 
+.page-header {
+    background-image: url(stadiump.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+header {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    top: 0;
+    background-size: cover;
+    margin-bottom: 100px;
+    height: 100px;
+    color: white;
+}
+
+#onenav:hover,
+#twonav:hover,
+#threenav:hover,
+#fournav:hover,
+#fivenav:hover {
+    color: black;
+    background-color: white;
+}
+
 img {
     max-width: 100%;
     margin-top: 25px;
@@ -20,9 +48,8 @@ body {
 }
 
 #royals {
-    background: url(royals.png) fixed no-repeat bottom right;
+    background: url(smallplease2.png);
     background-size: 500px 500px;
-    background-color: royalblue;
 }
 
 .page-nav {
@@ -57,6 +84,10 @@ body {
     align-items: center;
 }
 
+body {
+    margin-top: 150px;
+}
+
 .hide {
     display: none;
     width: 100%;
@@ -69,7 +100,7 @@ p {
     line-height: 15px;
 }
 
-#flexbox .big {
+.big {
     background-color: #efefef;
     border-style: solid;
     border-width: 2px;
@@ -200,6 +231,7 @@ p {
         max-width: 250px;
         margin: auto;
         margin-bottom: 5px;
+        margin-right: 5px;
     }
     p {
         margin-left: 30px;
