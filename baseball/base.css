@@ -3,6 +3,16 @@
     height: 100%;
 }
 
+img {
+    max-width: 100%;
+    margin-top: 25px;
+}
+
+p {
+    line-height: 10px;
+    margin-left: 50px;
+}
+
 body {
     font-family: "Sansita", sans-serif;
     text-align: center;
@@ -47,49 +57,67 @@ body {
     align-items: center;
 }
 
+.hide {
+    display: none;
+    width: 100%;
+    text-align: center;
+}
+
+p {
+    margin-left: 15%;
+    margin-right: 15%;
+    line-height: 15px;
+}
+
+#flexbox .big {
+    background-color: #efefef;
+    border-style: solid;
+    border-width: 2px;
+    color: black;
+    width: 500px;
+    height: 50px;
+    max-width: 500px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    text-align: center;
+    line-height: 0px;
+    margin: auto;
+    width: 85%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 5px
+}
+
 #flexbox {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    max-width: 300px;
+    max-width: 1000px;
     height: auto;
     min-height: 200px;
     color: white;
     align-items: center;
     align-content: center;
     margin: auto;
-    max-width: 500px;
     margin-top: 10px;
     margin-bottom: -10px;
-}
-
-#flexbox .big {
-    flex: 400px 1;
-    background-color: #efefef;
-    border-style: solid;
-    border-width: 2px;
-    color: black;
-    width: 50px;
-    height: 50px;
-    margin-bottom: 5px;
-    margin-right: 5px;
-    text-align: center;
-    line-height: 0px;
+    vertical-align: middle;
 }
 
 #flexbox .box {
-    flex: 100px 2;
+    display: flex;
+    flex: auto;
+    vertical-align: middle;
     background-color: #efefef;
     border-style: solid;
     border-width: 2px;
     color: black;
-    width: 50px;
-    height: 50px;
+    width: 200px;
+    height: 200px;
     text-align: center;
     margin-bottom: 5px;
     margin-right: 5px;
     text-align: center;
-    vertical-align: middle;
     line-height: 25px;
 }
 
@@ -97,44 +125,89 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    max-width: 300px;
+    max-width: 1000px;
     height: auto;
     min-height: 200px;
     color: white;
     align-items: center;
     align-content: center;
     margin: auto;
-    max-width: 500px;
     margin-top: 10px;
     margin-bottom: -10px;
+    vertical-align: middle;
 }
 
-#flexbox2 .big {
-    flex: 400px 1;
+#flexbox2 .box {
+    display: flex;
+    flex: auto;
+    vertical-align: middle;
     background-color: #efefef;
     border-style: solid;
     border-width: 2px;
     color: black;
-    width: 50px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    text-align: center;
+    line-height: 25px;
+}
+
+#flexbox2 .big {
+    background-color: #efefef;
+    border-style: solid;
+    border-width: 2px;
+    color: black;
+    width: 500px;
     height: 50px;
+    max-width: 500px;
     margin-bottom: 5px;
     margin-right: 5px;
     text-align: center;
     line-height: 0px;
+    margin: auto;
+    width: 85%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 5px
 }
 
-#flexbox2 .box {
-    flex: 100px 2;
-    background-color: #efefef;
-    border-style: solid;
-    border-width: 2px;
-    color: black;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    margin-bottom: 5px;
-    margin-right: 5px;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 25px;
+@media (max-width: 800px) {
+    #flexbox #r9 {
+        margin: auto;
+    }
+    p {
+        margin-left: 15px;
+    }
+    #flexbox .box {
+        flex: 150px 2;
+        max-width: 250px;
+    }
+    #flexbox2 .box {
+        flex: 150px 2;
+        max-width: 250px;
+    }
+    main {
+        margin-bottom: 75px;
+        width: 100%
+    }
+}
+
+@media (max-width: 400px) {
+    #flexbox .box {
+        flex: 150px 2;
+        max-width: 250px;
+        margin: auto;
+        margin-bottom: 5px;
+    }
+    p {
+        margin-left: 30px;
+    }
+    #flexbox2 .box {
+        flex: 150px 2;
+        max-width: 250px;
+        margin: auto;
+        margin-bottom: 5px;
+    }
 }

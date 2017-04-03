@@ -1,19 +1,96 @@
 {
-
     "Royals2014": {
+        "One": {
+            "Name": "Salvador Perez",
+            "RBI": "70",
+            "Home": "17",
+            "Number": "13",
+            "Pos": "Catcher"
+        },
+        "Two": {
+            "Name": "Alex Gordon",
+            "RBI": "74",
+            "Home": "19",
+            "Number": "4",
+            "Pos": "Left Field"
+        },
+        "Three": {
+            "Name": "Alcides Escobar",
+            "RBI": "50",
+            "Home": "3",
+            "Number": "2",
+            "Pos": "Shortstop"
+        },
+        "Four": {
+            "Name": "Eric Hosmer",
+            "RBI": "58",
+            "Home": "9",
+            "Number": "35",
+            "Pos": "1st Base"
+        },
+        "Five": {
+            "Name": "Lorenzo Cain",
+            "RBI": "53",
+            "Home": "5",
+            "Number": "6",
+            "Pos": "Center Field"
+        },
+        "Six": {
+            "Name": "Billy Butler",
+            "RBI": "66",
+            "Home": "9",
+            "Number": "36",
+            "Pos": "D-Hitter"
+        },
+        "Seven": {
+            "Name": "Omar Infante",
+            "RBI": "66",
+            "Home": "6",
+            "Number": "4",
+            "Pos": "2nd Base"
+
+        },
+        "Eight": {
+            "Name": "Mike Moustakas",
+            "RBI": "54",
+            "Home": "15",
+            "Number": "8",
+            "Pos": "3rd Base"
+
+        }
 
 
-        "Name": "Salvador Pérez",
-        "Number": 13,
-        "RBI": 70,
-        "HR": 17,
-        "R": 57
+    },
+
+    "Royals2015": {
+        "One": {
+            "Name": "Salvador Perez",
+            "RBI": "70"
+        },
+        "Two": {
+            "Name": "Alex Gordon"
+        },
+        "Three": {
+
+        },
+        "Four": {
 
 
+        },
+        "Five": {
 
+        },
+        "Six": {
+
+        },
+        "Seven": {
+
+        },
+        "Eight": {
+
+        }
 
     }
-
 
 
 }
