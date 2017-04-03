@@ -295,6 +295,155 @@ $.getJSON("baseball.json", function (data) {
         $("#r3pos8").text("Position: " + data.Royals2015.Eight.Pos)
         $("#r3rbi8").text("RBI: " + data.Royals2015.Eight.RBI)
         $("#r3home8").text("Home Runs: " + data.Royals2015.Eight.Home)
+
+        $("#m1name1").text("Name: " + data.Mets.One.Name)
+        $("#m1num1").text("Jersey Number: " + data.Mets.One.Number)
+        $("#m1pos1").text("Position: " + data.Mets.One.Pos)
+        $("#m1rbi1").text("RBI: " + data.Mets.One.RBI)
+        $("#m1home1").text("Home Runs: " + data.Mets.One.Home)
+
+        $("#m1name2").text("Name: " + data.Mets.Two.Name)
+        $("#m1num2").text("Jersey Number: " + data.Mets.Two.Number)
+        $("#m1pos2").text("Position: " + data.Mets.Two.Pos)
+        $("#m1rbi2").text("RBI: " + data.Mets.Two.RBI)
+        $("#m1home2").text("Home Runs: " + data.Mets.Two.Home)
+
+        $("#m1name3").text("Name: " + data.Mets.Three.Name)
+        $("#m1num3").text("Jersey Number: " + data.Mets.Three.Number)
+        $("#m1pos3").text("Position: " + data.Mets.Three.Pos)
+        $("#m1rbi3").text("RBI: " + data.Mets.Three.RBI)
+        $("#m1home3").text("Home Runs: " + data.Mets.Three.Home)
+
+        $("#m1name4").text("Name: " + data.Mets.Four.Name)
+        $("#m1num4").text("Jersey Number: " + data.Mets.Four.Number)
+        $("#m1pos4").text("Position: " + data.Mets.Four.Pos)
+        $("#m1rbi4").text("RBI: " + data.Mets.Four.RBI)
+        $("#m1home4").text("Home Runs: " + data.Mets.Four.Home)
+
+        $("#m1name5").text("Name: " + data.Mets.Five.Name)
+        $("#m1num5").text("Jersey Number: " + data.Mets.Five.Number)
+        $("#m1pos5").text("Position: " + data.Mets.Five.Pos)
+        $("#m1rbi5").text("RBI: " + data.Mets.Five.RBI)
+        $("#m1home5").text("Home Runs: " + data.Mets.Five.Home)
+
+        $("#m1name6").text("Name: " + data.Mets.Six.Name)
+        $("#m1num6").text("Jersey Number: " + data.Mets.Six.Number)
+        $("#m1pos6").text("Position: " + data.Mets.Six.Pos)
+        $("#m1rbi6").text("RBI: " + data.Mets.Six.RBI)
+        $("#m1home6").text("Home Runs: " + data.Mets.Six.Home)
+
+        $("#m1name7").text("Name: " + data.Mets.Seven.Name)
+        $("#m1num7").text("Jersey Number: " + data.Mets.Seven.Number)
+        $("#m1pos7").text("Position: " + data.Mets.Seven.Pos)
+        $("#m1rbi7").text("RBI: " + data.Mets.Seven.RBI)
+        $("#m1home7").text("Home Runs: " + data.Mets.Seven.Home)
+
+        $("#m1name8").text("Name: " + data.Mets.Eight.Name)
+        $("#m1num8").text("Jersey Number: " + data.Mets.Eight.Number)
+        $("#m1pos8").text("Position: " + data.Mets.Eight.Pos)
+        $("#m1rbi8").text("RBI: " + data.Mets.Eight.RBI)
+        $("#m1home8").text("Home Runs: " + data.Mets.Eight.Home)
+
+        $("#m2name1").text("Name: " + data.Mets17.One.Name)
+        $("#m2num1").text("Jersey Number: " + data.Mets17.One.Number)
+        $("#m2pos1").text("Position: " + data.Mets17.One.Pos)
+        $("#m2rbi1").text("RBI: " + data.Mets17.One.RBI)
+        $("#m2home1").text("Home Runs: " + data.Mets17.One.Home)
+
+        $("#m2name2").text("Name: " + data.Mets17.Two.Name)
+        $("#m2num2").text("Jersey Number: " + data.Mets17.Two.Number)
+        $("#m2pos2").text("Position: " + data.Mets17.Two.Pos)
+        $("#m2rbi2").text("RBI: " + data.Mets17.Two.RBI)
+        $("#m2home2").text("Home Runs: " + data.Mets17.Two.Home)
+
+        $("#m2name3").text("Name: " + data.Mets17.Three.Name)
+        $("#m2num3").text("Jersey Number: " + data.Mets17.Three.Number)
+        $("#m2pos3").text("Position: " + data.Mets17.Three.Pos)
+        $("#m2rbi3").text("RBI: " + data.Mets17.Three.RBI)
+        $("#m2home3").text("Home Runs: " + data.Mets17.Three.Home)
+
+        $("#m2name4").text("Name: " + data.Mets17.Four.Name)
+        $("#m2num4").text("Jersey Number: " + data.Mets17.Four.Number)
+        $("#m2pos4").text("Position: " + data.Mets17.Four.Pos)
+        $("#m2rbi4").text("RBI: " + data.Mets17.Four.RBI)
+        $("#m2home4").text("Home Runs: " + data.Mets17.Four.Home)
+
+        $("#m2name5").text("Name: " + data.Mets17.Five.Name)
+        $("#m2num5").text("Jersey Number: " + data.Mets17.Five.Number)
+        $("#m2pos5").text("Position: " + data.Mets17.Five.Pos)
+        $("#m2rbi5").text("RBI: " + data.Mets17.Five.RBI)
+        $("#m2home5").text("Home Runs: " + data.Mets17.Five.Home)
+
+        $("#m2name6").text("Name: " + data.Mets17.Six.Name)
+        $("#m2num6").text("Jersey Number: " + data.Mets17.Six.Number)
+        $("#m2pos6").text("Position: " + data.Mets17.Six.Pos)
+        $("#m2rbi6").text("RBI: " + data.Mets17.Six.RBI)
+        $("#m2home6").text("Home Runs: " + data.Mets17.Six.Home)
+
+        $("#m2name7").text("Name: " + data.Mets17.Seven.Name)
+        $("#m2num7").text("Jersey Number: " + data.Mets17.Seven.Number)
+        $("#m2pos7").text("Position: " + data.Mets17.Eight.Pos)
+        $("#m2rbi7").text("RBI: " + data.Mets17.Seven.RBI)
+        $("#m2home7").text("Home Runs: " + data.Mets17.Seven.Home)
+
+        $("#m2name8").text("Name: " + data.Mets17.Eight.Name)
+        $("#m2num8").text("Jersey Number: " + data.Mets17.Eight.Number)
+        $("#m2pos8").text("Position: " + data.Mets17.Eight.Pos)
+        $("#m2rbi8").text("RBI: " + data.Mets17.Eight.RBI)
+        $("#m2home8").text("Home Runs: " + data.Mets17.Eight.Home)
+
+        $("#g1name1").text("Name: " + data.Giants.One.Name)
+        $("#g1num1").text("Jersey Number: " + data.Giants.One.Number)
+        $("#g1pos1").text("Position: " + data.Giants.One.Pos)
+        $("#g1rbi1").text("RBI: " + data.Giants.One.RBI)
+        $("#g1home1").text("Home Runs: " + data.Giants.One.Home)
+
+        $("#g1name2").text("Name: " + data.Giants.Two.Name)
+        $("#g1num2").text("Jersey Number: " + data.Giants.Two.Number)
+        $("#g1pos2").text("Position: " + data.Giants.Two.Pos)
+        $("#g1rbi2").text("RBI: " + data.Giants.Two.RBI)
+        $("#g1home2").text("Home Runs: " + data.Giants.Two.Home)
+
+        $("#g1name3").text("Name: " + data.Giants.Three.Name)
+        $("#g1num3").text("Jersey Number: " + data.Giants.Three.Number)
+        $("#g1pos3").text("Position: " + data.Giants.Three.Pos)
+        $("#g1rbi3").text("RBI: " + data.Giants.Three.RBI)
+        $("#g1home3").text("Home Runs: " + data.Giants.Three.Home)
+
+        $("#g1name4").text("Name: " + data.Giants.Four.Name)
+        $("#g1num4").text("Jersey Number: " + data.Giants.Four.Number)
+        $("#g1pos4").text("Position: " + data.Giants.Four.Pos)
+        $("#g1rbi4").text("RBI: " + data.Giants.Four.RBI)
+        $("#g1home4").text("Home Runs: " + data.Giants.Four.Home)
+
+        $("#g1name5").text("Name: " + data.Giants.Five.Name)
+        $("#g1num5").text("Jersey Number: " + data.Giants.Five.Number)
+        $("#g1pos5").text("Position: " + data.Giants.Five.Pos)
+        $("#g1rbi5").text("RBI: " + data.Giants.Five.RBI)
+        $("#g1home5").text("Home Runs: " + data.Giants.Five.Home)
+
+        $("#g1name6").text("Name: " + data.Giants.Six.Name)
+        $("#g1num6").text("Jersey Number: " + data.Giants.Six.Number)
+        $("#g1pos6").text("Position: " + data.Giants.Six.Pos)
+        $("#g1rbi6").text("RBI: " + data.Giants.Six.RBI)
+        $("#g1home6").text("Home Runs: " + data.Giants.Six.Home)
+
+        $("#g1name7").text("Name: " + data.Giants.Seven.Name)
+        $("#g1num7").text("Jersey Number: " + data.Giants.Seven.Number)
+        $("#g1pos7").text("Position: " + data.Giants.Seven.Pos)
+        $("#g1rbi7").text("RBI: " + data.Giants.Seven.RBI)
+        $("#g1home7").text("Home Runs: " + data.Giants.Seven.Home)
+
+        $("#g1name8").text("Name: " + data.Giants.Eight.Name)
+        $("#g1num8").text("Jersey Number: " + data.Giants.Eight.Number)
+        $("#g1pos8").text("Position: " + data.Giants.Eight.Pos)
+        $("#g1rbi8").text("RBI: " + data.Giants.Eight.RBI)
+        $("#g1home8").text("Home Runs: " + data.Giants.Eight.Home)
+
+
+
+
+
     })
     .fail(function (jqxhr, status, error) {
         console.log('error', status, error)
