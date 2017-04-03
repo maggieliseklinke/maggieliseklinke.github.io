@@ -450,6 +450,6 @@ $.getJSON("baseball.json", function (data) {
     });
 
 $(function () {
-    $("#insert").load("baseball/header.html");
-    $("#inserth").load("baseball/footer.html");
+    $("#insert").load("header.html");
+    $("#inserth").load("footer.html");
 });
