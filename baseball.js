@@ -492,8 +492,3 @@ $.getJSON("baseball.json", function (data) {
     .fail(function (jqxhr, status, error) {
         console.log('error', status, error)
     });
-
-$(function () {
-    $("#insert").load("header.html");
-    $("#inserth").load("footer.html");
-});
