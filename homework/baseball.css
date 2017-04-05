@@ -279,18 +279,7 @@ p {
     margin-bottom: 5px
 }
 
-@media (min-width: 801px) {
-    iframe {
-        height: 315px;
-        width: 560px;
-    }
-}
-
 @media (max-width: 800px) {
-    iframe {
-        width: 460px;
-        height: 315px;
-    }
     #flexbox #r9 {
         margin: auto;
     }
@@ -317,10 +306,6 @@ p {
 }
 
 @media (max-width: 450px) {
-    iframe {
-        width: 360px;
-        height: 315px;
-    }
     .page-header {
         background-image: url(stadiump.jpg);
         width: 100%;
